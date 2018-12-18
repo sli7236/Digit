@@ -6,7 +6,7 @@ public class Digits {
     private ArrayList<Integer> digitList;
 
     //int method
-    public Digits(int num)
+    /*public Digits(int num)
     {
         digitList = new ArrayList<Integer>();
         if (num == 0)
@@ -31,10 +31,10 @@ public class Digits {
             }
         }
         return true;
-    }
+    }*/
 
     // string method
-    /*public Digits(int num) {
+    public Digits(int num) {
         digitList = new ArrayList<Integer>();
         //Part A
         String input = num + ""; //cast to string
@@ -51,7 +51,7 @@ public class Digits {
             }
         }
         return true;
-    }*/
+    }
 
     public ArrayList<Integer> getDigitList()
     {
