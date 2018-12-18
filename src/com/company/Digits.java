@@ -36,7 +36,6 @@ public class Digits {
     // string method
     public Digits(int num) {
         digitList = new ArrayList<Integer>();
-        //Part A
         String input = num + ""; //cast to string
         for (int i = 0; i < input.length(); i++) {
             digitList.add(Integer.parseInt(input.substring(i, i+1)));
@@ -44,7 +43,6 @@ public class Digits {
     }
 
     public boolean isStrictlyIncreasing() {
-        //Part B
         for (int i = 0; i < digitList.size()-1; i++) {
             if (digitList.get(i) >= digitList.get(i+1)) {
                 return false;
